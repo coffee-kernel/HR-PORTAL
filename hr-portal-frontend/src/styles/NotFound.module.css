@@ -1,0 +1,40 @@
+.container {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  color: #333;
+  font-family: system-ui, -apple-system, sans-serif;
+  padding: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0 0 0.5rem;
+  color: #dc3545;
+}
+
+.message {
+  font-size: 1.1rem;
+  margin: 0 0 1.5rem;
+  color: #6c757d;
+}
+
+.link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: 2px solid #007bff;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.link:hover {
+  background: #007bff;
+  color: white;
+}
